@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# IDE
+.idea
+
+# Misc
+.DS_Store
+
+# Your ignores e.g. all the data
+data/

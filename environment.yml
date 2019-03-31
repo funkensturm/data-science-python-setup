@@ -1,0 +1,17 @@
+# conda env create|update --file environment.yml
+name: data-science-project
+dependencies:
+- python=3.7
+- pip=19.0.*
+- pip:
+  - '--editable=.'
+  - flake8==3.7.*
+  - flake8-quotes==1.0.*
+  - jupyter==1.0.*
+  - matplotlib==3.0.*
+  - numpy==1.16.*
+  - pandas==0.24.*
+  - pytest==4.3.*
+  - pytest-mock==1.10.*
+  - scikit-learn==0.20.*
+  - scipy==1.2.*
