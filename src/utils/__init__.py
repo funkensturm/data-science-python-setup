@@ -10,7 +10,8 @@ def project_path():
     """
 
     cwd = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(cwd, '..', '..')
+    project_root = os.path.join(cwd, '..', '..')
+    return os.path.abspath(project_root)
 
 
 def path_to(*pathsegments):
@@ -26,3 +27,22 @@ def path_to(*pathsegments):
     """
 
     return os.path.join(project_path(), *pathsegments)
+
+
+def ensure_directories(path):
+    """Create directories for the path if they don't exist
+
+    Parameters
+    ----------
+    path : The path in question. Can also contain a filename
+
+    Examples
+    --------
+    >>> path = utils.path_to('data', 'data-set', 'data.csv')
+    >>> utils.ensure_directories(path)
+    """
+
+    path = os.path.dirname(path)
+    if not os.path.exists(path):
+        print(f'Creating "{path}" directory for you!')
+        os.makedirs(path)
