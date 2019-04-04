@@ -11,6 +11,7 @@ def project_path():
 
     cwd = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.join(cwd, '..', '..')
+
     return os.path.abspath(project_root)
 
 

@@ -1,8 +1,27 @@
 # Data Science Python Project Setup
 
+A minimal setup to let you crunch numbers like a pro.
+
+Read the full article here:
+
+If you like to use the repository as a blueprint for your own projects just follow the steps below.
+
+Replace `data-science-project` with you project/environment name in:
+- .travis.yml
+- environment.yml
+- README.md
+- setup.py
+
+Replace the package information in the setup.py with your own.
+
+
 ## Setup
 
-### Linux - Miniconda
+### Miniconda
+
+Skip this step if you have Anaconda or Miniconda installed already!
+
+#### Linux
 
 ```sh
 wget -O ~/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -10,7 +29,7 @@ bash ~/miniconda.sh -b -p ~/miniconda
 rm ~/miniconda.sh
 ```
 
-### Mac OS X - Miniconda
+#### Mac OS X
 
 ```sh
 curl -fSL -o ~/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
