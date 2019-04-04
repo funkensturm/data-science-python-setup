@@ -44,5 +44,6 @@ def ensure_directories(path):
 
     path = os.path.dirname(path)
     if not os.path.exists(path):
-        print(f'Creating "{path}" directory for you!')
         os.makedirs(path)
+
+    return path
