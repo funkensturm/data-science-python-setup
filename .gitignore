@@ -111,3 +111,4 @@ venv.bak/
 
 # Your ignores e.g. all the data
 data/
+!data/README.md

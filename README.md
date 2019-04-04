@@ -19,6 +19,12 @@ conda activate data-science-project
 jupyter notebook
 ```
 
+
+## Data
+
+See the [Data README](/data#readme) for more infos.
+
+
 ## Tests
 
 ```sh
