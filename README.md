@@ -2,6 +2,24 @@
 
 ## Setup
 
+### Linux - Miniconda
+
+```sh
+wget -O ~/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash ~/miniconda.sh -b -p ~/miniconda
+rm ~/miniconda.sh
+```
+
+### Mac OS X - Miniconda
+
+```sh
+curl -fSL -o ~/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+bash ~/miniconda.sh -b -p ~/miniconda
+rm ~/miniconda.sh
+```
+
+### Project
+
 ```sh
 git clone https://github.com/datasciencejob-de/data-science-python-setup.git
 ```
