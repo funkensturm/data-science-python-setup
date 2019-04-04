@@ -1,4 +1,4 @@
-# conda env create|update --file environment.yml
+# conda env create|update -f environment.yml
 name: data-science-project
 dependencies:
 - python=3.7
