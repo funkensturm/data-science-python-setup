@@ -2,7 +2,7 @@
 
 A minimal setup to let you crunch numbers like a pro.
 
-Read the full article here:
+Read the full article on [Medium](https://medium.com/datasciencejob/how-to-setup-your-python-data-science-projects-to-save-you-hassle-time-money-9381a98d3687).
 
 If you like to use the repository as a blueprint for your own projects just follow the steps below.
 
