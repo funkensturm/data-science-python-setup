@@ -27,6 +27,8 @@ Skip this step if you have Anaconda or Miniconda installed already!
 wget -O ~/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash ~/miniconda.sh -b -p ~/miniconda
 rm ~/miniconda.sh
+export PATH="$HOME/miniconda/bin:$PATH"
+conda init
 ```
 
 #### Mac OS X
@@ -35,6 +37,8 @@ rm ~/miniconda.sh
 curl -fSL -o ~/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 bash ~/miniconda.sh -b -p ~/miniconda
 rm ~/miniconda.sh
+export PATH="$HOME/miniconda/bin:$PATH"
+conda init
 ```
 
 ### Project
